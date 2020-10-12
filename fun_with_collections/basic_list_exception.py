@@ -10,7 +10,6 @@ def get_input():
     if not x.isdecimal():
         raise Exception('Please enter only a number')
     else:
-        return int(x)
+        return x
 
-if __name__ == '__main__':
- print(get_input())
+
